@@ -7,18 +7,26 @@ import WorkExperience from './components/WorkExperience';
 import About from './components/About';
 import NavBar from './components/NavBar';
 import Footer from './components/Footer';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
 
 function App() {
   return (
+
     <div>
-      <NavBar />
-      <Hero />
-      <About />
-      <Skills />
-      <Portfolio />
-      {/* <WorkExperience /> */}
-      <Contact />
-      <Footer />
+      <BrowserRouter>
+        <NavBar />
+        <Hero />
+        <About id="about" />
+        <Skills />
+        <Portfolio />
+        <WorkExperience />
+        <Contact />
+        <Footer />
+        <Routes>
+          <Route path="/about" element={<About />} />
+        </Routes>
+      </BrowserRouter>
+      
     </div>
   );
 }

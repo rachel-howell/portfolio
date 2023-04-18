@@ -12,7 +12,7 @@ const Portfolio = () => {
   }
 
   return (
-    <div className="h-fit flex flex-col items-center justify-around bg-[#f8f8f8]">
+    <div id="portfolio" className="h-fit flex flex-col items-center justify-around bg-[#f8f8f8]">
         <img src={require('../assets/sunriseblack.png')} alt="sunrise" width="100" className="mt-16"/>
         <p className="font-serif text-6xl mt-3 text-[#414141] mb-5">My Projects</p>
         

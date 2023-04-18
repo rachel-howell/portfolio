@@ -16,15 +16,12 @@ function App() {
       <BrowserRouter>
         <NavBar />
         <Hero />
-        <About id="about" />
+        <About />
         <Skills />
         <Portfolio />
         <WorkExperience />
         <Contact />
         <Footer />
-        <Routes>
-          <Route path="/about" element={<About />} />
-        </Routes>
       </BrowserRouter>
       
     </div>

@@ -2,9 +2,9 @@ import React from 'react'
 
 const Hero = () => {
   return (
-    <div className=" h-screen xl:h-fit xl:mb-40 sm:mb-0  mb-12 flex flex-col items-center">
+    <div className=" h-screen xl:h-fit xl:mb-40 md:mb-0  mb-12 flex flex-col items-center">
         {/* Picture of Me */}
-        <img src={require('../assets/profilepic.png')} alt="profile pic of Rachel"  className="sm:mt-36 mt-6 sm:w-1/3 w-5/6"/>
+        <img src={require('../assets/profilepic.png')} alt="profile pic of Rachel"  className=" mt-36 w-96"/>
         <p className="text-6xl mt-2 text-[#414141] font-serif">Rachel Howell</p>
         <p className="text-2xl mt-4 font-mono text-[#414141]">Full Stack Web Developer</p>
         <div className="mt-6">

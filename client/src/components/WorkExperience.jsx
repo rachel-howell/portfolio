@@ -8,8 +8,8 @@ const WorkExperience = () => {
   }
 
   return (
-    <div className="flex flex-col items-center h-fit w-screen mt-16">
-    <img src={require('../assets/sunriseblack.png')} alt="sunrise" width="100"/>
+    <div id="experience" className="flex flex-col items-center h-fit w-screen">
+    <img src={require('../assets/sunriseblack.png')} alt="sunrise" width="100" className="mt-16"/>
 
     <p className="text-6xl font-serif mt-3 text-[#414141] text-center">Work Experience</p>
     <div className="flex flex-wrap w-screen mt-16 justify-around h-1/2">
@@ -19,7 +19,7 @@ const WorkExperience = () => {
           scale: 1.1,
           transition: { duration: 0.2},
         }}
-        className="flex flex-col w-80 border-2 rounded-md items-center p-4">
+        className="flex flex-col w-96 sm:w-80 border-2 rounded-md items-center p-4 mb-5 sm:mb-0">
         <div className="h-1/3  flex items-center" style={logoStyle} >
           <img src={require('../assets/rswhite.png')} alt="rswatchworks logo" width="175px" className="basis-1/3"/>
         </div>
@@ -43,7 +43,7 @@ const WorkExperience = () => {
         whileHover={{
           scale: 1.1,
           transition: { duration: 0.2},
-        }} className="flex flex-col w-80 items-center p-4 border-2 rounded-md">
+        }} className="flex flex-col w-96 sm:w-80 items-center p-4 border-2 rounded-md mb-5 sm:mb-0">
         <div className="h-1/3 flex items-center " style={logoStyle} >
           <img src={require('../assets/varsity.png')} alt="profile pic of Rachel"  height="100px" width="100px"/>
         </div>
@@ -66,7 +66,7 @@ const WorkExperience = () => {
         whileHover={{
           scale: 1.1,
           transition: { duration: 0.2},
-        }} className="flex flex-col w-80 items-center p-4 border-2 rounded-md">
+        }} className="flex flex-col w-96 sm:w-80 items-center p-4 border-2 rounded-md">
         <div className="h-1/3 flex items-center" style={logoStyle} >
           <img src={require('../assets/progenesis.png')} alt="profile pic of Rachel" height="103px"  width="192px" className=""/>
         </div>

@@ -1,4 +1,5 @@
 import React from 'react'
+import { motion } from 'framer-motion'
 
 const Contact = () => {
 
@@ -8,10 +9,14 @@ const Contact = () => {
   }
 
   return (
-    <div className=" h-72 flex flex-col items-center justify-center" onClick={()=>openInNewTab()}>
+    <motion.div 
+    whileHover={{
+      scale: 1.1,
+      transition: { duration: 0.2},
+    }} className=" h-72 flex flex-col items-center justify-center" onClick={()=>openInNewTab()}>
         <img src={require('../assets/mail.png')} alt="sunrise" width="100" className="hover:cursor-pointer"/>
         <p className="font-serif text-6xl mt-5 text-[#414141] hover:cursor-pointer">Get in Touch</p>
-    </div>
+    </motion.div>
   )
 }
 

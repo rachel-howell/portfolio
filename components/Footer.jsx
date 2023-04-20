@@ -8,7 +8,7 @@ const Footer = () => {
         <motion.div
         whileHover={{
           x: -100,
-          transition: { duration: 0.5 },
+          transition: { duration: 0.5, type:'spring', bounce: 0.1 },
         }}
         className="mt-40 place-self-end mr-32">
           <Image src={require('../assets/greypeek.png')} alt="sunrise" width="100" />

@@ -8,8 +8,8 @@ const NavBar = () => {
     <div className="flex flex-row md:justify-end justify-between p-3 mt-3 mr-3 w-screen">
         <div className="hidden md:flex flex-row justify-around w-2/5 items-center text-sm text-[#414141] font-mono">
             <Link href="#home" className="hover:underline">HOME</Link>
-            <Link scroll href="#about" className="hover:underline">ABOUT</Link>
-            <Link href="#skills" className="hover:underline">SKILLS</Link>
+            <Link smooth href="#about" className="hover:underline">ABOUT</Link>
+            <Link smoooth href="#skills" className="hover:underline">SKILLS</Link>
             <Link smooth href="#portfolio" className="hover:underline">PORTFOLIO</Link>
             <Link smooth href="#experience" className="hover:underline">EXPERIENCE</Link>
             <Link smooth href="#contact" className="hover:underline">CONTACT</Link>

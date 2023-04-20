@@ -26,7 +26,7 @@ const WorkExperience = () => {
         </div>
 
         <div className="text-center mt-1">
-          <p className="text-2xl font-serif">Software Developer & Social Media Manager</p>
+          <p className="text-2xl font-serif">Software Engineer & Social Media Manager</p>
           <p className="text-sm font-mono">RSWatchWorks | Vancouver, WA</p>
           <p className="text-xs font-mono">4/2021 - present</p>
         </div>

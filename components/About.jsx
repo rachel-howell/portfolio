@@ -3,7 +3,7 @@ import Image from 'next/image'
 
 const About = () => {
   return (
-    <div id="about" className="bg-[#f8f8f8] h-fit w-screen sm:h-screen flex flex-col items-center p-5">
+    <div id="about" className="bg-[#f8f8f8] h-screen w-screen sm:h-screen flex flex-col items-center p-5">
         <Image src={require('../assets/sunriseblack.png')} alt="sunrise" width="100" className="sm:mt-16 mt-4"/>
         <p className="font-serif text-6xl mt-3 text-[#414141]">About Me</p>
         <p className="font-mono text-[#979797] mt-5">California Grown | INTJ | she/her</p>

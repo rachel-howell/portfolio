@@ -21,7 +21,7 @@ const WorkExperience = () => {
           transition: { duration: 0.2},
         }}
         className="flex flex-col w-96 md:w-80 border-4 rounded-md items-center p-4 mb-5 sm:mb-0">
-        <div className="h-1/3 flex items-center justify-center border-4" style={logoStyle} >
+        <div className="h-1/3 flex items-center justify-center" style={logoStyle} >
           <Image src={require('../assets/rswhite.png')} alt="rswatchworks logo" width="300px" className=""/>
         </div>
 
@@ -73,7 +73,7 @@ const WorkExperience = () => {
         </div>
 
         <div className="text-center">
-          <p className="text-2xl font-serif">Laboratory Associate</p>
+          <p className="text-2xl font-serif mt-10">Laboratory Associate</p>
           <p className="text-sm font-mono">Progenesis | La Jolla, CA</p>
           <p className="text-xs font-mono">8/2019 - 3/2020</p>
         </div>

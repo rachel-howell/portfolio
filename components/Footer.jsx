@@ -2,14 +2,19 @@ import React from 'react'
 import Image from 'next/image'
 import { motion } from 'framer-motion'
 
+
+
 const Footer = () => {
+
+
   return (
-    <div className="bg-[#f8f8f8] h-64 flex flex-row w-screen justify-between">
+    <div className="bg-[#f8f8f8] h-64 flex flex-row w-screen justify-between ">
         <motion.div
         whileHover={{
           x: -100,
           transition: { duration: 0.5, type:'spring', bounce: 0.1 },
         }}
+        
         className="mt-40 place-self-end mr-32">
           <Image src={require('../assets/greypeek.png')} alt="sunrise" width="100" />
         </motion.div>

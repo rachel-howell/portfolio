@@ -28,7 +28,7 @@ function SideMenu({menuButton}) {
           <div className="flex flex-col">
             {
               links.map((link, id)=>(
-                <Link key={id} href={link.href} className="cursor-pointer font-mono text-[#414141] rounded-md hover:bg-[#f8f8f8] lg:px-4 ml-1 p-2">{link.label}</Link>
+                <Link key={id} href={link.href} className="cursor-pointer font-mono text-[#414141] rounded-md hover:bg-[#f8f8f8] hover:bg-opacity-90 lg:px-4 ml-1 p-2">{link.label}</Link>
               ))
             }
           </div>

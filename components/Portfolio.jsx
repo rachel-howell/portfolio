@@ -36,7 +36,7 @@ const Portfolio = () => {
         </div>
 
         <hr align="center" width="5%"
-        className="mt-10"
+        className="mt-10 sm:mt-5"
         style={{
             color: '#979797',
             backgroundColor: '#979797',
@@ -67,7 +67,7 @@ const Portfolio = () => {
           </div>
 
           <hr align="center" width="5%"
-          className="mt-10"
+          className="mt-10 sm:mt-5"
           style={{
               color: '#979797',
               backgroundColor: '#979797',

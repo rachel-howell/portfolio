@@ -4,7 +4,7 @@ import Link from 'next/link'
 
 const Hero = () => {
   return (
-    <div className=" h-screen w-screen mb-12 flex flex-col items-center">
+    <div id="home" className=" h-screen w-screen mb-12 flex flex-col items-center">
         {/* Picture of Me */}
         <Image src={require('../assets/profilepic.png')} alt="profile pic of Rachel"  className=" mt-32 sm:w-96 w-72"/>
         <p className="sm:text-6xl text-5xl mt-2 text-[#414141] font-serif">Rachel Howell</p>

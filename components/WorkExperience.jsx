@@ -44,7 +44,7 @@ const WorkExperience = () => {
         whileHover={{
           scale: 1.1,
           transition: { duration: 0.2},
-        }} className="flex flex-col w-96 md:w-80 items-center p-4 border-4 rounded-md mb-5 md:mb-0">
+        }} className="flex flex-col w-96 md:w-80 items-center p-4 border-4 rounded-md mt-8 mb-5 md:mb-0">
         <div className="h-1/3 flex items-center " style={logoStyle} >
           <Image src={require('../assets/varsity.png')} alt="profile pic of Rachel"  height="100px" width="100px"/>
         </div>

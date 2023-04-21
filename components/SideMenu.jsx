@@ -24,7 +24,7 @@ function SideMenu({menuButton}) {
           leaveFrom="transform opacity-100 scale-100"
           leaveTo="transform opacity-0 scale-95"
         >
-        <Popover.Panel className="absolute z-10 ml-3 bg-white border-2 rounded-md p-3">
+        <Popover.Panel className="absolute z-10 ml-0 sm:ml-3 sm:bg-white bg-white bg-opacity-90 border-2 rounded-md p-3">
           <div className="flex flex-col">
             {
               links.map((link, id)=>(

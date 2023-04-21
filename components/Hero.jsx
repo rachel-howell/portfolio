@@ -6,8 +6,8 @@ const Hero = () => {
   return (
     <div className=" h-screen w-screen mb-12 flex flex-col items-center">
         {/* Picture of Me */}
-        <Image src={require('../assets/profilepic.png')} alt="profile pic of Rachel"  className=" mt-32 w-96"/>
-        <p className="text-6xl mt-2 text-[#414141] font-serif">Rachel Howell</p>
+        <Image src={require('../assets/profilepic.png')} alt="profile pic of Rachel"  className=" mt-32 sm:w-96 w-72"/>
+        <p className="sm:text-6xl text-5xl mt-2 text-[#414141] font-serif">Rachel Howell</p>
         <p className="text-2xl mt-4 font-mono text-[#414141]">Full Stack Web Developer</p>
         <div className="mt-8">
             

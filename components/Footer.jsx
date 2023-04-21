@@ -16,7 +16,7 @@ const Footer = () => {
         }}
         
         className="mt-40 place-self-end mr-32">
-          <Image src={require('../assets/greypeek.png')} alt="sunrise" width="100" />
+          <Image src={require('../assets/greypeek.png')} alt="sunrise" className="sm:w-28 w-72"/>
         </motion.div>
 
         <p className="place-self-end mb-12 mr-12 font-mono text-lg">© Howell | all rights reserved</p>

@@ -29,8 +29,8 @@ const Portfolio = () => {
             <div className="flex flex-col text-center max-w-lg">
               <p className="font-serif text-3xl mb-3 md:mt-0 mt-7">RSWatchWorks</p>
               <p className="font-mono text-sm mb-3 text-[#979797]">Next.js | React | Node | GraphQL | Shopify Storefront API</p>
-              <p className="mb-3">Fully functional custom Shopify storefront built with Next.js, GraphQL, and the Shopify Storefront API. Users can browse products, view product details, add products to the cart, and check out.</p>
-              <p>Includes service listings, price estimate calculator, and the ability to send inquiries with selected services directly from the website.</p>
+              <p className="mb-3 px-3">Fully functional custom Shopify storefront built with Next.js, GraphQL, and the Shopify Storefront API. Users can browse products, view product details, add products to the cart, and check out.</p>
+              <p className="px-3">Includes service listings, price estimate calculator, and the ability to send inquiries with selected services directly from the website.</p>
             </div>
 
         </div>
@@ -51,8 +51,8 @@ const Portfolio = () => {
             <div className="flex flex-col text-center max-w-lg">
               <p className="font-serif text-3xl mb-3 md:mt-0 mt-7">Shakerr.io</p>
               <p className="font-mono text-sm mb-3 text-[#979797]">MongoDB | Express | React | Node | Bootstrap</p>
-              <p className="mb-3">API and Database querying cocktail recipe application.</p>
-              <p>MongoDB and Express backend for CRUD functionality. RESTful API calls populate website with 700+ recipes. Includes user registration and login with Bcrypt and jsonwebtoken.</p>
+              <p className="mb-3 px-3">API and Database querying cocktail recipe application.</p>
+              <p className="px-3">MongoDB and Express backend for CRUD functionality. RESTful API calls populate website with 700+ recipes. Includes user registration and login with Bcrypt and jsonwebtoken.</p>
             </div>
 
             <motion.div whileHover={{
@@ -88,7 +88,7 @@ const Portfolio = () => {
               <p className="font-serif text-3xl mb-3">Ballot Box Voting Application</p>
               <p className="font-mono text-sm mb-3 text-[#979797]">MongoDB | Express | React | Node | Tailwind</p>
               <p className="mb-3">Polling web application.</p>
-              <p>Front-end built using React and Tailwind with MongoDB backend. Features include Bcrypt for password hashing, RESTful API communication, and promises for async operations.</p>
+              <p className="px-3">Front-end built using React and Tailwind with MongoDB backend. Features include Bcrypt for password hashing, RESTful API communication, and promises for async operations.</p>
             </div>
 
         </div>

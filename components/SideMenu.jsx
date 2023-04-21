@@ -5,7 +5,7 @@ import React, { Fragment } from 'react'
 function SideMenu({menuButton}) {
 
   const links = [
-    { href: '#homee', label: 'Home' },
+    { href: '#home', label: 'Home' },
     { href: '#about', label: 'About' },
     { href: '#skills', label: 'Skills' },
     { href: '#portfolio', label: 'Portfolio' },

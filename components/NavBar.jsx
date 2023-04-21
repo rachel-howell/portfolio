@@ -16,7 +16,7 @@ const NavBar = () => {
             <Link smooth href="#contact" className="hover:underline">CONTACT</Link>
         </div>
 
-        <div className="lg:hidden ml-5 pt-2">
+        <div className="lg:hidden ml-5 pt-2 ring-black">
           <SideMenu menuButton={<MenuIcon fontSize="large"/>}/>
         </div>
 

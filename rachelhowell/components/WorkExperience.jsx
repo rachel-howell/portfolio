@@ -21,7 +21,7 @@ const WorkExperience = () => {
           transition: { duration: 0.2},
         }}
         className="flex flex-col w-96 md:w-80 border-4 rounded-md items-center p-4 mb-5 sm:mb-0">
-        <div className="h-1/3 flex items-center justify-center border-4" style={logoStyle} >
+        <div className="h-1/3 flex items-center justify-center" style={logoStyle} >
           <Image src={require('../assets/rswhite.png')} alt="rswatchworks logo" width="300px" className=""/>
         </div>
 
@@ -44,9 +44,9 @@ const WorkExperience = () => {
         whileHover={{
           scale: 1.1,
           transition: { duration: 0.2},
-        }} className="flex flex-col w-96 md:w-80 items-center p-4 border-4 rounded-md mb-5 md:mb-0">
+        }} className="flex flex-col w-96 md:w-80 items-center p-4 border-4 mt-8 sm:mt-0 rounded-md mb-5 md:mb-0">
         <div className="h-1/3 flex items-center " style={logoStyle} >
-          <Image src={require('../assets/varsity.png')} alt="profile pic of Rachel"  height="100px" width="100px"/>
+          <Image src={require('../assets/varsity.png')} alt="varsity logo"  height="100px" width="100px"/>
         </div>
 
         <div className="text-center mt-1">
@@ -68,12 +68,12 @@ const WorkExperience = () => {
           scale: 1.1,
           transition: { duration: 0.2},
         }} className="flex flex-col w-96 md:w-80 items-center p-4 border-4 rounded-md mt-8 lg:mt-0">
-        <div className="h-1/3 flex items-center" style={logoStyle} >
-          <Image src={require('../assets/progenesis.png')} alt="profile pic of Rachel" height="103px"  width="192px" className=""/>
+        <div className="h-1/3 mt-5 flex items-center" style={logoStyle} >
+          <Image src={require('../assets/progenesis.png')} alt="progenesis logo" height="103px"  width="192px" className=""/>
         </div>
 
         <div className="text-center">
-          <p className="text-2xl font-serif">Laboratory Associate</p>
+          <p className="text-2xl font-serif mt-10">Laboratory Associate</p>
           <p className="text-sm font-mono">Progenesis | La Jolla, CA</p>
           <p className="text-xs font-mono">8/2019 - 3/2020</p>
         </div>

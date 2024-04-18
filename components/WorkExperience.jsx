@@ -15,13 +15,36 @@ const WorkExperience = () => {
     <p className="text-6xl font-serif mt-3 text-[#414141] text-center">Work Experience</p>
     <div className="flex flex-wrap w-5/6 mt-16 justify-around h-1/2">
 
+    {/* <motion.div 
+        whileHover={{
+          scale: 1.1,
+          transition: { duration: 0.2},
+        }} className="flex flex-col w-96 md:w-80 items-center p-4 border-4 mt-8 sm:mt-0 rounded-md mb-5 md:mb-0">
+        <div className="h-1/4 w-1/2 flex items-center " style={logoStyle} >
+          <Image src={require('../assets/pqa.png')} alt="pqa logo"  height="100px" width="100px"/>
+        </div>
+
+        <div className="text-center mt-1">
+          <p className="text-2xl font-serif">Software QA Engineer @ Dropbox</p>
+          <p className="text-sm font-mono">PLUSQA</p>
+          <p className="text-xs font-mono">5/2023 - present</p>
+        </div>
+
+        
+        <div className="h-2/3 mt-3">
+          <li>Lead QA efforts for user data analytics and monetization</li>
+          <li>Collaborate directly with development teams at Dropbox</li>
+          <li>Used academic coaching skills to help students learn time management and organizational techniques</li>
+        </div>
+      </motion.div> */}
+
       <motion.div 
         whileHover={{
           scale: 1.1,
           transition: { duration: 0.2},
         }}
         className="flex flex-col w-96 md:w-80 border-4 rounded-md items-center p-4 mb-5 sm:mb-0">
-        <div className="h-1/3 flex items-center justify-center" style={logoStyle} >
+        <div className="h-1/3 w-1/2 flex items-center justify-center" style={logoStyle} >
           <Image src={require('../assets/rswhite.png')} alt="rswatchworks logo" width="300px" className=""/>
         </div>
 
@@ -45,7 +68,7 @@ const WorkExperience = () => {
           scale: 1.1,
           transition: { duration: 0.2},
         }} className="flex flex-col w-96 md:w-80 items-center p-4 border-4 mt-8 sm:mt-0 rounded-md mb-5 md:mb-0">
-        <div className="h-1/3 flex items-center " style={logoStyle} >
+        <div className="h-1/2 w-1/2 mt-4 flex items-center " style={logoStyle} >
           <Image src={require('../assets/varsity.png')} alt="varsity logo"  height="100px" width="100px"/>
         </div>
 
@@ -63,7 +86,7 @@ const WorkExperience = () => {
         </div>
       </motion.div>
 
-      <motion.div 
+      {/* <motion.div 
         whileHover={{
           scale: 1.1,
           transition: { duration: 0.2},
@@ -84,7 +107,7 @@ const WorkExperience = () => {
           <li>Extracted DNA from whole blood patient samples to be analyzed for patient-specific assays</li>
           <li>Designed novel packaging with CEO to increase logistical efficiency of embryo biopsy transport</li>
         </div>
-      </motion.div>
+      </motion.div> */}
 
     </div>
     

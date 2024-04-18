@@ -66,16 +66,16 @@ const Portfolio = () => {
 
           </div>
 
-          <hr align="center" width="5%"
+          {/* <hr align="center" width="5%"
           className="mt-10 sm:mt-5"
           style={{
               color: '#979797',
               backgroundColor: '#979797',
               height: 4
           }}
-          />
+          /> */}
 
-          <div className="flex flex-wrap items-center justify-around w-screen mb-8">
+          {/* <div className="flex flex-wrap items-center justify-around w-screen mb-8">
           <motion.div whileHover={{
               scale: 1.1,
               transition: { duration: 0.2},
@@ -89,10 +89,9 @@ const Portfolio = () => {
               <p className="font-mono text-sm mb-3 text-[#979797]">MongoDB | Express | React | Node | Tailwind</p>
               <p className="mb-3">Polling web application.</p>
               <p className="px-3">Front-end built using React and Tailwind with MongoDB backend. Features include Bcrypt for password hashing, RESTful API communication, and promises for async operations.</p>
-            </div>
+            </div> */}
 
         </div>
-    </div>
   )
 }
 
